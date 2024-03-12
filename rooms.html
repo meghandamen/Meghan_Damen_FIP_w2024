@@ -2,39 +2,55 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Couples Restort About page</title>
-        <link
-            src="css/main.css"
-            rel="stylesheet"
-            type="text/css"
-            media="screen"
-        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+        <title class="hiddden">Couples Restort Spa Page</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="css/grid.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1 class="hidden">Weclome to Couples Restort Rooms Page</h1>
-        <header>
+        <h1 class="hidden">Weclome to Couples Restort Spa Page</h1> 
+
+        <header class="grid-con" id="main-header">
             <!-- logo image goes here-->
-            <h2>Couples Restort</h2>
-            <nav>
+            <h2>Couples Restort</h2><!--maybe take out /fix-->
+            <nav id="main-nav" class="col-span-full">
                 <h2 class="hidden">Main Navigation</h2>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="rooms.html">Rooms</a></li>
-                    <li><a href="packages.html">Packages</a></li>
-                    <li><a href="dinning.html">Dinning</a></li>
-                    <li><a href="index.html">Spa Activities</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-                <a href="booknow.html">Book Now</a>
+                <input type="checkoutbox" id="hamburger">
+                <label for="hamburger">
+                    <img src="images/burger.svg" alt="hamburger menu icon">
+                </label>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="dinning.html">Dinning</a></li>
+                        <li><a href="index.html">Spa Activities</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
             </nav>
+            <span id="logo" class="col-span-full">
+                <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+            </span>
         </header>
 
-        <main>
-            <!--image here-->
-            <section>
-                <h3>Couples Resort</h3>
-                <h2>About & Facilities</h2>
+        <section id="hero" class="grid-con">
+            <h2 class="hidden">Book a stay here</h2>
+            <div id="book-now-id" class="book-now col-start-3 col-span-2">
+                <p>Book Now</p>
+            </div>
+            <section id="hero-heading-box" class="col-span-full">
+                <h2 class="hero-img-2">
+                    <span>Couples Resort</span><br> Room Styles
+                </h2>
             </section>
+        </section>
+
+        <main>
             <section>
                 <h4>ALL ROOMS HAVE</h4>
                 <ul>
@@ -80,7 +96,7 @@
                     Bidet<br>
                     Microwave<br>
                 </p>
-                <a href="details&photos.html">Chateaus Details & Photos...</a>
+                <a href="details&photos.html">Chateaus Details &amp; Photos...</a>
             </section>
 
             <section>
@@ -95,7 +111,7 @@
                     Bidet<br>
                     Microwave<br>
                 </p>
-                <a href="details&photos.html">Villas Details & Photos...</a>
+                <a href="details&photos.html">Villas Details &amp; Photos...</a>
             </section>
 
             <section>
@@ -108,7 +124,7 @@
                     Bidet<br>
                     Microwave<br>
                 </p>
-                <a href="details&photos.html">Masters Details & Photos...</a>
+                <a href="details&photos.html">Masters Details &amp; Photos...</a>
             </section>
 
             <section>
@@ -119,7 +135,7 @@
                     Private Out Door Hot Tubs <br>
                     Private cabin<br>
                 </p>
-                <a href="details&photos.html">Chalet Details & Photos...</a>
+                <a href="details&photos.html">Chalet Details &amp; Photos...</a>
             </section>
 
             <section>
@@ -130,7 +146,7 @@
                     Private Out Door Hot Tubs <br>
                     Microwave<br>
                 </p>
-                <a href="details&photos.html">Exotics Details & Photos...</a>
+                <a href="details&photos.html">Exotics Details &amp; Photos...</a>
             </section>
 
             <section>
@@ -140,7 +156,7 @@
                     600 sq ft <br>
                     Private Out Door Hot Tubs <br>
                 </p>
-                <a href="details&photos.html">Juniors Details & Photos...</a>
+                <a href="details&photos.html">Juniors Details &amp; Photos...</a>
             </section>
 
 
@@ -189,23 +205,26 @@
         </main>
         
         <footer>
-            <h2 class="footer">Couples Resort (Inc.)</h2>
-                <br>
-                <p>
-                    1198 Osprey Rd, (End of) <br>
-                    Minden, Soyers Lake, ON <br>
-                    K0M 2K0 <br>
-                    <br>
-                    Toll Free:+1 877 201-1156 <br>
-                    FAX:+1 613 638 2217 <br>
-                    E-mail: info@coupleresort.com <br>
-                </p>
-                <p>
-                    All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing.
-                    <br>
-                    &copy;2013 Couples Resort Inc. All Rights Reserved. Privacy policy 
-                </p>
+            <h2 class="grid-con" id="footer-spa">Couples Resort (Inc.)</h2>
+                <section id="footer-contact-info" class="col-span-full">
+                    <h3>Couples Resort</h3>
+                    <p>
+                        1198 Osprey Rd, (End of) <br>
+                        Minden, Soyers Lake, ON <br>
+                        K0M 2K0
+                    </p>  
+                    <p>
+                        Toll Free:+1 877 201-1156 <br>
+                        FAX:+1 613 638 2217 <br>
+                        E-mail: info@coupleresort.com 
+                    </p>
+                </section>
+                <div id="footer-privacy" class="col-span-full line-separator">
+                    <p>All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. &copy;2013 Couples Resort Inc. All Rights Reserved. Privacy policy </p>
+                </div>
         </footer>
+
+
     </body>
     
 </html>
