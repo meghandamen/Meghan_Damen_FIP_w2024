@@ -2,55 +2,75 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Couples Restort Rooms Page</title>
-        <link
-            src="css/main.css"
-            rel="stylesheet"
-            type="text/css"
-            media="screen"
-        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+        <title class="hiddden">Couples Restort Spa Page</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="css/grid.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1 class="hidden">Weclome to Couples Restort About Page</h1>
-        <header>
-            <!-- logo image goes here-->
-            <h2>Couples Restort</h2>
-            <nav>
-                <h2 class="hidden">Main Navigation</h2>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="rooms.html">Rooms</a></li>
-                    <li><a href="packages.html">Packages</a></li>
-                    <li><a href="dinning.html">Dinning</a></li>
-                    <li><a href="index.html">Spa Activities</a></li>
-                    <li><a href="about.html">About</a></li>
-                </ul>
-                <a href="booknow.html">Book Now</a>
-            </nav>
-        </header>
+        <h1 class="hidden">Weclome to Couples Restort Spa Page</h1> 
 
+        <header class="grid-con" id="main-header">
+            <!-- logo image goes here-->
+            <h2>Couples Restort</h2><!--maybe take out /fix-->
+            <nav id="main-nav" class="col-span-full">
+                <h2 class="hidden">Main Navigation</h2>
+                <input type="checkoutbox" id="hamburger">
+                <label for="hamburger">
+                    <img src="images/burger.svg" alt="hamburger menu icon">
+                </label>
+                <div id="burger-con">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="packages.html">Packages</a></li>
+                        <li><a href="dinning.html">Dinning</a></li>
+                        <li><a href="index.html">Spa Activities</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <span id="logo" class="col-span-full">
+                <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+            </span>
+        </header>
         <main>
-            <!-- img goes here-->
-            <section>
-                <h3>Couples Resort</h3>
-                <h2>About & Facilities</h2>
+            <section id="hero" class="grid-con">
+                <h2 class="hidden">Book a stay here</h2>
+                <div id="book-now-id" class="book-now col-start-3 col-span-2">
+                    <p>Book Now</p>
+                </div>
+                <section id="hero-heading-box" class="col-span-full">
+                    <h2 class="hero-img-2">
+                        <span>Couples Resort</span><br> About &amp; Facilities
+                    </h2>
+                </section>
             </section>
-            <p>
-                Ontario's Couples Resort is on the shores of Algonquin Park's Galeairy Lake, which mostly is in Algonquin Park. and the Madawaska River. The village of Whitney, Ontario is a short 15-minute walk away. Algonquin Park being our back yard we are surrounded with breathtaking wilderness, pure fresh air, secluded forests, pristine waters, an abundance of sunny days and a blanket of stars at night.
-                <br> <br>
-                A 5-STAR Luxury Resort for 46 couples. Endless Nature and Sports Activities, together with Pampering Spa Treatments and followed by Decadent Gourmet dining by our International Chefs.
-                <br> <br>
-                Those of you who need to escape from the bustle will find us calming and rejuvenating. There are many ways to do nothing if that is your wish. On the other hand, unlimited activities will keep the adventurer active all year round. Ontario's Natural Algonquin Park is ideal for the sport enthusiast or avid adventurer who will be delighted with the extraordinary activities available.
-                <br> <br>
-                2018, Ice Hiking invented by John Sorensen, 50 years after Father, Fritz Sorensen opened up Cross Country Skiing in Algonquin Park, now get out and go and enjoy Nature!
-            </p>
+
+            <span class="grid-con">
+                <section id="about-summary" class="col-span-full line-separator">
+                    <h2 class="hidden">about resort</h2>
+                    <p>
+                        Ontario's Couples Resort is on the shores of Algonquin Park's Galeairy Lake, which mostly is in Algonquin Park. and the Madawaska River. The village of Whitney, Ontario is a short 15-minute walk away. Algonquin Park being our back yard we are surrounded with breathtaking wilderness, pure fresh air, secluded forests, pristine waters, an abundance of sunny days and a blanket of stars at night.
+                        <br> <br>
+                        A 5-STAR Luxury Resort for 46 couples. Endless Nature and Sports Activities, together with Pampering Spa Treatments and followed by Decadent Gourmet dining by our International Chefs.
+                        <br> <br>
+                        Those of you who need to escape from the bustle will find us calming and rejuvenating. There are many ways to do nothing if that is your wish. On the other hand, unlimited activities will keep the adventurer active all year round. Ontario's Natural Algonquin Park is ideal for the sport enthusiast or avid adventurer who will be delighted with the extraordinary activities available.
+                        <br> <br>
+                        2018, Ice Hiking invented by John Sorensen, 50 years after Father, Fritz Sorensen opened up Cross Country Skiing in Algonquin Park, now get out and go and enjoy Nature!
+                    </p>
+                </section>
+            </span>
 
             <!-- code in quote thingy?-->
 
             <!--img goes here-->
             <section>
                 <h3>Couples Resort</h3>
-                <h2>Lakeside Patio & Pool</h2>
+                <h2>Lakeside Patio &amp; Pool</h2>
             </section>
             <section>
                 <h4>SERVICE PATIO <br> FOR MEALS / SNACKS /DRINKS</h4>
@@ -86,7 +106,7 @@
             <!--img goes here-->
             <section>
                 <h3>Couples Resort</h3>
-                <h2>Gift Shop & Rec Room</h2>
+                <h2>Gift Shop &amp; Rec Room</h2>
             </section>
             <section>
                 <h4>Gift Shop</h4>
@@ -113,7 +133,7 @@
             <!--img goes here-->
             <section>
                 <h3>Couples Resort</h3>
-                <h2>Gym & Sports Centre</h2>
+                <h2>Gym &amp; Sports Centre</h2>
             </section>
             <section>
                 <h4>Sports Centre</h4>
@@ -200,7 +220,7 @@
             </section>    
             <section>
                 <form method="POST" action="#">
-                    <label for="name">First & Last Name </label>
+                    <label for="name">First &amp; Last Name </label>
                     <input type="text" name="name">
 
                     <br>
@@ -219,23 +239,26 @@
                 </form>
             </section>
         </main>
+
+
         <footer>
-            <h2 class="footer">Couples Resort (Inc.)</h2>
-                <br>
-                <p>
-                    1198 Osprey Rd, (End of) <br>
-                    Minden, Soyers Lake, ON <br>
-                    K0M 2K0 <br>
-                    <br>
-                    Toll Free:+1 877 201-1156 <br>
-                    FAX:+1 613 638 2217 <br>
-                    E-mail: info@coupleresort.com <br>
-                </p>
-                <p>
-                    All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing.
-                    <br>
-                    &copy;2013 Couples Resort Inc. All Rights Reserved. Privacy policy 
-                </p>
+            <h2 class="grid-con" id="footer-spa">Couples Resort (Inc.)</h2>
+                <section id="footer-contact-info" class="col-span-full">
+                    <h3>Couples Resort</h3>
+                    <p>
+                        1198 Osprey Rd, (End of) <br>
+                        Minden, Soyers Lake, ON <br>
+                        K0M 2K0
+                    </p>  
+                    <p>
+                        Toll Free:+1 877 201-1156 <br>
+                        FAX:+1 613 638 2217 <br>
+                        E-mail: info@coupleresort.com 
+                    </p>
+                </section>
+                <span id="footer-privacy" class="col-span-full line-separator">
+                    <p>All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. &copy;2013 Couples Resort Inc. All Rights Reserved. Privacy policy </p>
+                </span>
         </footer>
     </body>
 </html>
