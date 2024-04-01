@@ -9,6 +9,7 @@
  body {
     color: #626262;
     font-family: 'Sanchez', 'Times New Roman', serif;
+    font-size: 12px;
  }
  
  a {
@@ -31,6 +32,20 @@
     border-top: solid 3px #CF6666;
     padding-top: 20px;
  }
+
+h2 {
+   font-size: 24px;
+}
+
+.mini-header {
+   color: #9a2018;
+   font-size: 14px;
+}
+
+.centre-text {
+   text-align: center;
+}
+
 
 /* 2. ---Main Nav--- */
 
@@ -101,6 +116,7 @@
 
 .book-now {
    background-color: #9a2018;
+   height: 66px;
    color: #fff;
    font-size: 16px;
    transition: background-color 500ms linear;
@@ -113,7 +129,7 @@
 }
 
 .book-now:hover {
-   background-color: rgb(196, 28, 28);
+   background-color: rgb(99, 18, 18);
 }
 
 #book-now-hero {
@@ -122,17 +138,6 @@
 
 #spa-heading-box {
    align-self: end;
-}
-
-.spa-img-h2, .hero-img-h3 {
-   background: rgb(255, 255, 255);
-   padding: 10px 15px;
-   font-size: 14px;
-}
-
-.spa-img-h2 span,  .spa-img-h3 span {
-   color: #9a2018;
-   font-size: 12px;
 }
 
 #spa-summary p {
@@ -179,3 +184,19 @@
     line-height: 18px;
     font-size: 11px;
  }
+
+/* spa body styles*/
+
+.spa-serivces {
+   background-color: #f6d9d9;
+   margin-bottom: 50px;
+}
+
+/* about page styles */
+
+.ladeside-sections {
+   background-color: #e0e0e0;
+   border-radius: 20px;
+   padding: 15px;
+   margin-bottom: 20px;
+}
