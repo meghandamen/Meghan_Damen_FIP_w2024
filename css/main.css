@@ -46,6 +46,30 @@ h2 {
    text-align: center;
 }
 
+.margin-b {
+   margin-bottom: 40px;
+}
+/* drop down menus */
+
+details {
+   border: solid 2px #d6d6d6;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: #f7f7f7;
+   margin-bottom: 30px;
+}
+
+summary {
+   padding: 10px;
+}
+
+.read-more {
+   color: #9a2018;
+}
+
+article {
+   margin-bottom: 20px;
+}
 
 /* 2. ---Main Nav--- */
 
@@ -137,7 +161,7 @@ h2 {
 }
 
 .book-now:hover {
-   background-color: #e87b7b;
+   background-color: #430707;
 }
 
 #book-now-hero {
@@ -214,7 +238,7 @@ h2 {
 }
 
 #contact-hero-form input[type="submit"]:hover {
-   background-color: #e87b7b;
+   background-color: #430707;
    border-radius: 5px;
 }
 
@@ -261,7 +285,8 @@ h2 {
 /* about page styles */
 
 .ladeside-sections {
-   background-color: #e0e0e0;
+   background-color: #f7f7f7;
+   border: 2px solid #d6d6d6;
    border-radius: 20px;
    padding: 15px;
    margin-bottom: 20px;
