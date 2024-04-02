@@ -109,9 +109,17 @@ h2 {
 
 /* 3. ---Main Hero Image--- */
 
-#spa {
-   background: url(../images/) no-repeat; /*image goes here*/
-   height: 200px;
+#hero-spa { /*spa page*/
+   background: url(../images/m_spa1.png) no-repeat;
+   height: 223px;
+}
+#hero-about { /*about page*/
+   background: url(../images/m_about1.png) no-repeat;
+   height: 223px;
+}
+#hero-room { /*room page*/
+   background: url(../images/m_rooms1.png) no-repeat;
+   height: 223px;
 }
 
 .book-now {
@@ -129,35 +137,93 @@ h2 {
 }
 
 .book-now:hover {
-   background-color: rgb(99, 18, 18);
+   background-color: #e87b7b;
 }
 
 #book-now-hero {
    height: 67px;
 }
 
-#spa-heading-box {
-   align-self: end;
+#hero-heading-box {
+   align-self: end; 
 }
 
-#spa-summary p {
+.heading-box {
+   background-color: rgb(255, 255, 255);
+   padding: 10px 15px;
+}
+
+#about-summary p {
    font-size: 14px;
    line-height: 22px;
    margin-bottom: 20px;
 }
 
-/* 4. ---Main Hero Image Contact--- */ /* from example class dont get catch up on the names*/
-
-/* 5. ---Why Choose Us--- */
-
-/* 6. ---About & FAQ--- */
-
 /* 7. ---Contact--- */
+
+#contact-hero-text {
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+
+#contact-hero-address p {
+   margin-bottom: 20px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+#contact-hero-address {
+   margin-bottom: 30px;
+}
+
+#contact-hero-address h3 {
+   margin-bottom: 25px;
+}
+
+
+
+#contact-hero-form form {
+   display: flex;
+   flex-direction: column;
+}
+
+#contact-hero-form input, textarea {
+   padding: 22px;
+   border: 2px solid #d6d6d6;
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   margin-bottom: 30px;
+   font: inherit;
+   width: auto;
+}
+
+#contact-hero-form textarea {
+   height: 250px;
+}
+
+
+
+#contact-hero-form input[type="submit"] {
+   padding: 12px 28px;
+   background: #9a2018;
+   color: #fff;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 150px;
+   align-self: flex-end;
+}
+
+#contact-hero-form input[type="submit"]:hover {
+   background-color: #e87b7b;
+   border-radius: 5px;
+}
+
+
 
 /* 8. ---Footer--- */
 
 #footer-hero {
-   background-image: url(../images/footer.jpg); /*add image*/
+   background-image: url(../images/m_footer.png); /*add image*/
    background-repeat: no-repeat;
    color: #fff;
    font-size: 12px;
@@ -199,4 +265,87 @@ h2 {
    border-radius: 20px;
    padding: 15px;
    margin-bottom: 20px;
+}
+
+/* --- headers with images --- */
+
+#hero-pool {
+   background: url(../images/m_lakeside_pool.png);
+   height: 223px;
+}
+
+#pool-container {
+   margin-top: 154px;
+}
+
+#hero-gift {
+   background: url(../images/m_spa_recroom.png);
+   height: 223px;
+}
+
+#gift-container {
+   margin-top: 154px;
+}
+
+#hero-sports {
+   background: url(../images/m_gym_sports_centre.png);
+   height: 223px;
+}
+
+#sports-container {
+   margin-top: 154px;
+}
+
+#hero-gallery {
+   background: url(../images/m_artist_gallery.png);
+   height: 223px;
+}
+
+#gallery-container {
+   margin-top: 154px;
+}
+
+#hero-spa-policies {
+   background: url(../images/m_spa_policies_information.png);
+   height: 223px;
+}
+
+#spa-policies-container {
+   margin-top: 154px;
+}
+
+#hero-unforeseen {
+   background: url(../images/Rectangle\ 89.png);
+   height: 120px;
+}
+
+#unforeseen-container {
+   margin-top: 51px;
+}
+
+#hero-ontario-spa {
+   background: url(../images/Rectangle\ 89.png);
+   height: 120px;
+}
+
+#ontario-spa-container {
+   margin-top: 51px;
+}
+
+#hero-spa-products {
+   background: url(../images/Rectangle\ 89.png);
+   height: 120px;
+}
+
+#spa-products-container {
+   margin-top: 51px;
+}
+
+#hero-contact {
+   background: url(../images/m_contact.png);
+   height: 223px;
+}
+
+#heading-container {
+   margin-top: 154px;
 }
