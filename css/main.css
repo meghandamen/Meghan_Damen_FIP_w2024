@@ -42,12 +42,12 @@ h2 {
    font-size: 14px;
 }
 
-.centre-text {
-   text-align: center;
-}
-
 .margin-b {
    margin-bottom: 40px;
+}
+
+.text-chunk {
+   margin-bottom: 30px;
 }
 /* drop down menus */
 
@@ -114,8 +114,6 @@ article {
    border-bottom: 1px solid #efefef;
 }
  
- 
- 
 #main-nav ul li:first-child {
    border-top: 1px solid #efefef;
 }
@@ -123,8 +121,6 @@ article {
 #main-nav ul li:last-child {
    margin-bottom: 10px;
 } 
- 
- 
  
 #logo {
    margin-bottom: 20px;
@@ -277,9 +273,49 @@ article {
 
 /* spa body styles*/
 
-.spa-serivces {
-   background-color: #f6d9d9;
-   margin-bottom: 50px;
+.spa-serivces-img {
+   float: left;
+   margin-right: 20px;
+   margin-top: 30px;
+}
+
+.spa-serivces p {
+   font-size: 12px;
+   margin-bottom: 20px;
+   line-height: 20px;
+}
+
+.spa-serivces h4 {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
+.spa-serivces a {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+.centre-text {
+   text-align: center;
+   margin: 40px 0px;
+}
+
+.spa-service-awards {
+   float: right;
+   margin-left: 20px;
+   margin-top: 30px;
+}
+
+.about-spa h4 {
+   font-size: 14px;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
+.about-spa p {
+   margin-bottom: 40px;
+   line-height: 20px;
 }
 
 /* about page styles */
