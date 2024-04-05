@@ -215,8 +215,6 @@ article {
    margin-bottom: 25px;
 }
 
-
-
 #contact-hero-form form {
    display: flex;
    flex-direction: column;
@@ -236,8 +234,6 @@ article {
    height: 250px;
 }
 
-
-
 #contact-hero-form input[type="submit"] {
    padding: 12px 28px;
    background: #9a2018;
@@ -248,12 +244,29 @@ article {
    align-self: flex-end;
 }
 
-#contact-hero-form input[type="submit"]:hover {
-   background-color: #430707;
-   border-radius: 5px;
+#contact-hero-form input[type="text"]:hover {
+   border-color: #9a2018;
 }
 
+#contact-hero-form textarea:hover {
+   border-color: #9a2018;
+}
 
+#contact-hero-form input[type="submit"]:hover {
+   background-color: #430707;
+}
+
+.deals-checkbox {
+   display: flex;
+}
+
+.deals-checkbox span {
+   padding-left: 10px;
+}
+
+input[type="checkbox"]:checked + span::after {
+   content: "✨📰✨";
+}
 
 /* 8. ---Footer--- */
 
@@ -432,16 +445,3 @@ article {
    margin-top: 155px;
 }
 
-/* --effects-- */
-
-.deals-checkbox {
-   display: flex;
-}
-
-.deals-checkbox span {
-   padding-left: 10px;
-}
-
-input[type="checkbox"]:checked + span::after {
-   content: "✨📰✨";
-}
