@@ -49,6 +49,16 @@ h2 {
 .text-chunk {
    margin-bottom: 30px;
 }
+
+.text-sections {
+   background-color: #f7f7f7;
+   border: 2px solid #d6d6d6;
+   border-radius: 20px;
+   padding: 15px;
+   margin-bottom: 20px;
+   
+}
+
 /* drop down menus */
 
 details {
@@ -320,11 +330,8 @@ article {
 
 /* about page styles */
 
-.ladeside-sections {
-   background-color: #f7f7f7;
-   border: 2px solid #d6d6d6;
-   border-radius: 20px;
-   padding: 15px;
+.about-areas {
+   font-size: 14px;
    margin-bottom: 20px;
 }
 
@@ -332,6 +339,7 @@ article {
 
 #hero-pool {
    background: url(../images/m_lakeside_pool.png);
+   background-repeat: no-repeat;
    height: 223px;
 }
 
@@ -341,6 +349,7 @@ article {
 
 #hero-gift {
    background: url(../images/m_spa_recroom.png);
+   background-repeat: no-repeat;
    height: 223px;
 }
 
@@ -350,6 +359,7 @@ article {
 
 #hero-sports {
    background: url(../images/m_gym_sports_centre.png);
+   background-repeat: no-repeat;
    height: 222px;
 }
 
@@ -359,6 +369,7 @@ article {
 
 #hero-gallery {
    background: url(../images/m_artist_gallery.png);
+   background-repeat: no-repeat;
    height: 222px;
 }
 
@@ -368,6 +379,7 @@ article {
 
 #hero-spa-policies {
    background: url(../images/m_spa_policies_information.png);
+   background-repeat: no-repeat;
    height: 222px;
 }
 
@@ -377,6 +389,7 @@ article {
 
 #hero-unforeseen {
    background: url(../images/Rectangle\ 89.png);
+   background-repeat: no-repeat;
    height: 120px;
 }
 
@@ -386,6 +399,7 @@ article {
 
 #hero-ontario-spa {
    background: url(../images/Rectangle\ 89.png);
+   background-repeat: no-repeat;
    height: 120px;
 }
 
@@ -395,6 +409,7 @@ article {
 
 #hero-spa-products {
    background: url(../images/Rectangle\ 89.png);
+   background-repeat: no-repeat;
    height: 119px;
 }
 
@@ -404,6 +419,7 @@ article {
 
 #hero-contact {
    background: url(../images/m_contact.png);
+   background-repeat: no-repeat;
    height: 223px;
 }
 
