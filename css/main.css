@@ -16,7 +16,12 @@ a {
    text-decoration: none;
    transition: all .5s ease-in-out;
 }
- 
+
+ul {
+   list-style-type: none;
+   padding: 0;
+} 
+
 input, textarea {
    display: block;
    margin: 0;
@@ -425,4 +430,18 @@ article {
 
 #heading-container {
    margin-top: 155px;
+}
+
+/* --effects-- */
+
+.deals-checkbox {
+   display: flex;
+}
+
+.deals-checkbox span {
+   padding-left: 10px;
+}
+
+input[type="checkbox"]:checked + span::after {
+   content: "✨📰✨";
 }
