@@ -234,7 +234,9 @@ article {
    height: 250px;
 }
 
-#contact-hero-form input[type="submit"] {
+/* --send button-- */
+
+#contact-hero-form button[type="submit"] {
    padding: 12px 28px;
    background: #9a2018;
    color: #fff;
@@ -243,6 +245,32 @@ article {
    width: 150px;
    align-self: flex-end;
 }
+ 
+button:after {
+   content: "Submit";
+   color: #fff;
+}
+
+button:active:after {
+   content: "Thank you";
+}
+
+#contact-hero-form button[type="submit"]:hover {
+   background-color: #430707;
+
+   animation: changeform;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: initial
+}
+
+@keyframes changeform {
+   0% {transform: translateY(0);}
+   50% {transform: scale(1.15);}
+   100% {transform: translateY(0);}
+}
+
+/* -- end of send button-- */
 
 #contact-hero-form input[type="text"]:hover {
    border-color: #9a2018;
@@ -250,10 +278,6 @@ article {
 
 #contact-hero-form textarea:hover {
    border-color: #9a2018;
-}
-
-#contact-hero-form input[type="submit"]:hover {
-   background-color: #430707;
 }
 
 .deals-checkbox {
@@ -326,7 +350,7 @@ input[type="checkbox"]:checked + span::after {
 
 .centre-text {
    text-align: center;
-   margin: 40px 0px;
+   margin-bottom: 30px;
 }
 
 .spa-service-awards {
@@ -350,6 +374,12 @@ input[type="checkbox"]:checked + span::after {
 
 .about-areas {
    font-size: 14px;
+   margin-bottom: 20px;
+}
+
+/* --rooms styles pages-- */
+
+.rooms-margin {
    margin-bottom: 20px;
 }
 
