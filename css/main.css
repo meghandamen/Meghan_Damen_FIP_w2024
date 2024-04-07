@@ -337,7 +337,7 @@ input[type="checkbox"]:checked + span::after {
    line-height: 20px;
 }
 
-.spa-serivces h4 {
+.spa-serivces h3, .about-spa h3 {
    font-size: 14px;
    margin-bottom: 20px;
    margin-top: 30px;
@@ -359,11 +359,6 @@ input[type="checkbox"]:checked + span::after {
    margin-top: 30px;
 }
 
-.about-spa h4 {
-   font-size: 14px;
-   margin-bottom: 20px;
-   margin-top: 30px;
-}
 
 .about-spa p {
    margin-bottom: 40px;
